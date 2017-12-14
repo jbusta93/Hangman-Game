@@ -1,0 +1,25 @@
+body {
+  font-family: Codystar, cursive;
+  color: white;
+  background-image: url(images/background.jpg);
+}
+
+div {
+  background-color: rgba(52,69,131,.2);
+}
+
+h1,
+h2,
+h4,
+p {
+  background-color: black;
+}
+
+h2 {
+  letter-spacing: 10px;
+}
+
+img {
+  width: 40%;
+  height: auto;
+}
