@@ -32,19 +32,9 @@ function startGame() {
 
 function hide() {
   for (var i = 0; i < hiddenWord.length; i++) {
-    if (hiddenWord[i]!=="") {
-      hiddenLetter[i] = "_";
-    } else {
       hiddenLetter[i]=hiddenWord[i];
-    }
-  }
-
-  // hiddenLetter = [];
-  // hiddenLetter.length = hiddenWord.length;
-  // hiddenLetter.fill('_');
-  // for (var i = 0; i < hiddenWord.length; i++) {
-  //     hiddenLetter[i]=hiddenWord[i];
-  // };
+      hiddenLetter.fill('_');
+  };
   var underscore = document.getElementById('hidden-word');
   underscore.innerHTML = hiddenLetter.join(" ");
 };
